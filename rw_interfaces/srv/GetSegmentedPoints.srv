@@ -1,0 +1,8 @@
+# Request is a simple trigger.
+# An empty request asks the service to perform its internal
+# segmentation and fusion and return the result.
+---
+# Response is the resulting point cloud of the segmented target area.
+sensor_msgs/PointCloud2 point_cloud
+bool success
+string message

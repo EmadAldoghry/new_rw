@@ -1,0 +1,7 @@
+# Request: A region of pixels from an image.
+rw_interfaces/PixelRegion pixel_region
+---
+# Response: The corresponding 3D points in the sensor's frame.
+sensor_msgs/PointCloud2 point_cloud
+bool success
+string message

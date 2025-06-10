@@ -1,0 +1,7 @@
+# Request: A point cloud of target points.
+sensor_msgs/PointCloud2 point_cloud
+---
+# Response: The calculated and transformed centroid pose.
+geometry_msgs/PoseStamped corrected_goal
+bool success
+string message
